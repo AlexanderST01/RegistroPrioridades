@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-
 public class Prioridades
 {
     [Key]
@@ -8,6 +7,6 @@ public class Prioridades
     public string? Descripcion{ get; set; }
     [Range(1, 31, ErrorMessage = "Los dias compromiso estan entre 1 y 31")]
     public int DiasCompromiso{ get; set; }
-    
+
 
 }
