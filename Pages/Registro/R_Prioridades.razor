@@ -4,27 +4,28 @@
 
 <EditForm Model="prioridades" OnValidSubmit="Guardar">
     <DataAnnotationsValidator />
-    <div class="card-header">
-        <h1>Registro prioridad</h1>        
-    </div>
-    <div class = "card-body">
-        <label>ID:</label>
-        <div class = "input-group">
-            <InputNumber @bind-Value = "prioridades.PrioridadId" class = "form-control"></InputNumber>
-            <button type="button" class = "btn btn-primary oi oi-magnifying-glass" @onclick = "Buscar"></button>
+    <div class = "card">
+        <div class="card-header">
+            <h1>Registro prioridad</h1>        
         </div>
-        <label>Descripcion</label>
-        <InputText @bind-Value="prioridades.Descripcion" class = "form-control"></InputText>
-        <ValidationMessage For="@(() => prioridades.Descripcion)" />
-        <label>Dias compromiso</label>
-        <InputNumber @bind-Value="prioridades.DiasCompromiso" class = "form-control"></InputNumber>
-        <ValidationMessage For="@(() => prioridades.DiasCompromiso)" />    
-    </div>
-    <div class = "card-footer">
-        <button type="button" class = "btn btn-primary" @onclick = "Nuevo">Nuevo <i class = "oi oi-file"/></button>
-        <button type="submit" class = "btn btn-success" >Guardar <i class = "oi oi-document"/></button>
-        <button type="button" class = "btn btn-danger" @onclick = "Eliminar">Eliminar <i class = "oi oi-trash"/></button>
-
+        <div class = "card-body">
+            <label>ID:</label>
+            <div class = "input-group">
+                <InputNumber @bind-Value = "prioridades.PrioridadId" class = "form-control"></InputNumber>
+                <button type="button" class = "btn btn-primary oi oi-magnifying-glass" @onclick = "Buscar"></button>
+            </div>
+            <label>Descripcion</label>
+            <InputText @bind-Value="prioridades.Descripcion" class = "form-control"></InputText>
+            <ValidationMessage For="@(() => prioridades.Descripcion)" />
+            <label>Dias compromiso</label>
+            <InputNumber @bind-Value="prioridades.DiasCompromiso" class = "form-control"></InputNumber>
+            <ValidationMessage For="@(() => prioridades.DiasCompromiso)" />    
+        </div>
+        <div class = "card-footer">
+            <button type="button" class = "btn btn-primary" @onclick = "Nuevo">Nuevo <i class = "oi oi-file"/></button>
+            <button type="submit" class = "btn btn-success" >Guardar <i class = "oi oi-document"/></button>
+            <button type="button" class = "btn btn-danger" @onclick = "Eliminar">Eliminar <i class = "oi oi-trash"/></button>
+        </div>
     </div>
 </EditForm>
 
