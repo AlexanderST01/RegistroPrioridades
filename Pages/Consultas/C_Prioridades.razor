@@ -1,0 +1,52 @@
+@page "/ConsultasPrioridades"
+@inject PrioridadesBLL prioridadesBLL
+
+<label>ID</label>
+    <div class="input-group">
+        <InputNumber @bind-Value="filtrar" class="form-control"></InputNumber>
+        <button type="button" class="btn btn-outline-primary oi oi-magnifying-glass" @onclick="Buscar"></button>
+        <button type="button" class="btn btn-outline-primary oi oi-reload" @onclick="Reiniciar"></button>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>PrioridadId</th>
+                <th>Descripcion</th>
+                <th>DiasCompromiso</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in L_Prioridades)
+            {
+                <tr>
+                    <td>@item.PrioridadId</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.DiasCompromiso</td>
+                </tr>
+            }
+        </tbody>
+</table>
+
+@code {
+
+    public Prioridades prioridades { get; set; } = new Prioridades();
+    public string mensaje = string.Empty;
+    public int filtrar { get; set; }
+    public List<Prioridades> L_Prioridades { get; set; } = new List<Prioridades>();
+
+    protected override void OnInitialized()
+    {
+        L_Prioridades = prioridadesBLL.Listar(l => true);
+    }
+
+    public void Buscar()
+    {
+        L_Prioridades = prioridadesBLL.Listar(l => l.PrioridadId == filtrar);
+    }
+
+    public void Reiniciar()
+    {
+        L_Prioridades = prioridadesBLL.Listar(l => true);
+    }
+}

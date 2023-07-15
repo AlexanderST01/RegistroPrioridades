@@ -11,6 +11,7 @@ builder.Services.AddDbContext<Context>(options => options.UseSqlite(ConStr));
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddScoped<PrioridadesBLL>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
 

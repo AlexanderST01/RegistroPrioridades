@@ -42,5 +42,12 @@ public class PrioridadesBLL
                 .AsNoTracking()
                 .SingleOrDefault( i => i.PrioridadId == PrioridadId);
     }
+    public List<Prioridades> Listar(Expression<Func<Prioridades, bool>> Criterio)
+    {
+        return _context.Prioridades
+                .Where(Criterio)
+                .AsNoTracking()
+                .ToList();
+    }
 
 }
