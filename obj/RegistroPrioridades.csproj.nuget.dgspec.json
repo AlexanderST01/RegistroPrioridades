@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj": {}
+    "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj": {}
   },
   "projects": {
-    "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj": {
+    "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
+        "projectUniqueName": "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
         "projectName": "RegistroPrioridades",
-        "projectPath": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
+        "projectPath": "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\obj\\",
+        "outputPath": "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

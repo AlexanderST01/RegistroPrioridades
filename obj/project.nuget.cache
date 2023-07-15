@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g37RTddEEqGWoOUfi6NTt5JzGRVNFajzKBYCx9zsRYTht4Ng7J+2bS9scEP14bW3x2E3hK5qhV8lm41x5kEVCQ==",
+  "dgSpecHash": "/rJ5/AvxBuSlTwqm0cVLqyv7syeT2UVR1pifG3Y7mYGF35bBC/LpvpHuDWH6DSPF10C+PifsQ9CD1Oj27ISl9A==",
   "success": true,
-  "projectFilePath": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
+  "projectFilePath": "c:\\ProgramacionAplicadaI\\RegistroPrioridades\\RegistroPrioridades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.8\\microsoft.data.sqlite.core.7.0.8.nupkg.sha512",
