@@ -51,18 +51,13 @@
     }
     public bool Validar()
     {
-        if(string.IsNullOrEmpty(prioridades.Descripcion))
+        if (string.IsNullOrEmpty(prioridades.Descripcion) && prioridades.DiasCompromiso < 0)
         {
             return false;
         }
-        else if(prioridades.DiasCompromiso < 0)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        
+        return true;
+        
     }
     public void Nuevo()
     {
@@ -70,22 +65,16 @@
     }
     public void Guardar()
     {
-        if(Validar())
-        {
-            if(prioridadesBLL.Guardar(this.prioridades))
-            {
-                Nuevo();
-            }
+        if (Validar() && prioridadesBLL.Guardar(this.prioridades))
+        {            
+           Nuevo();            
         }
     }
     public void Eliminar()
     {
-        if(Validar())
-        {
-            if(prioridadesBLL.Eliminar(this.prioridades))
-            {
-                Nuevo();
-            }
+        if (Validar() && prioridadesBLL.Eliminar(this.prioridades))
+        {           
+           Nuevo();            
         }
     }
 

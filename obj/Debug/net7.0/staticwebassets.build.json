@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hCbq5ELearb31NDZWO2RlIJkbw52wf1TK+RYxKktXOs=",
+  "Hash": "OFNfi6kjctJb1usJOb7EbnSIMGxPspMlZy5zsfcoqCQ=",
   "Source": "RegistroPrioridades",
   "BasePath": "_content/RegistroPrioridades",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "RegistroPrioridades",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\",
-      "BasePath": "_content/RegistroPrioridades",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "RegistroPrioridades",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\",
+      "BasePath": "_content/RegistroPrioridades",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\ProgramacionAplicadaI\\RegistroPrioridades\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
