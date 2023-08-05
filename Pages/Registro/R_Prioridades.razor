@@ -50,14 +50,8 @@
             this.prioridades = prioridadEncontrada;
     }
     public bool Validar()
-    {
-        if (string.IsNullOrEmpty(prioridades.Descripcion) && prioridades.DiasCompromiso < 0)
-        {
-            return false;
-        }
-        
-        return true;
-        
+    { 
+        return !string.IsNullOrEmpty(prioridades.Descripcion) && !(prioridades.DiasCompromiso < 0);
     }
     public void Nuevo()
     {
